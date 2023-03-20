@@ -1,0 +1,22 @@
+Algoritmo ejercicio_2_8
+	// progrma que  que suma los numeros naturales pares ,hasta el numero 100
+	//version 1.0 
+	//27/02/2023 
+	// programado por:Juan sebastian ortiz
+	//definicion de variables
+	definir s , n ,p como entero
+	//inicializacion de las variables
+	s = 0
+	p = 0
+	n = 100
+	//bucle operaciones aritmeticas 
+	Para s = 1 Hasta n Con Paso 1 Hacer
+		//condicional
+		si s mod 2 == 0 entonces 
+			p = p + s
+		FinSi
+	Fin Para
+	//impresion de resultado
+	escribir "el resultado de la suma de los numeros pares hasta el numero 100 es: " p
+
+FinAlgoritmo

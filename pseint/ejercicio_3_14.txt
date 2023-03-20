@@ -1,0 +1,28 @@
+Algoritmo ejercicio_3_14
+	// programa que segun los minutos de la llamada varia su precio y los pasos
+	//version 1.0 
+	//27/02/2023
+	// programado por:Juan sebastian ortiz
+	//definicion de variables
+	definir l,p,c,pc  como real
+	//inicializacion variables
+	p=0.0
+	c=0.0
+	l = 0.0
+	pc=0.0
+	//captura de datos 
+	escribir "cuantos minutos lleva en la llamada"
+	leer l
+	//condicionales y procesos aritmeticos
+	si l  < 3 entonces 
+		escribir "la llamada tiene un coste de : 10 centimos  (cinco pasos)"
+	sino 
+		//impresion de resultados
+		si l >=3 entonces 
+			p = (l -3) 
+			c = 10 + (p*5)
+			pc=p + 5
+			escribir "minutos adicionales : " p " (precio): " c " pasos del contador: " pc
+		FinSi
+	FinSi
+FinAlgoritmo

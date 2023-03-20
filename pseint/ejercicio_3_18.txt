@@ -1,0 +1,34 @@
+Algoritmo ejercicio_3_18 
+	// programa que lee 3 numeros enteros y imprime el mayor //
+	//desarrollador juan sebastian ortiz ibarra //
+	// fecha 19/02/2023//
+	//version 1.0//
+	//Declaracion de variables 
+	definir a,b,c  como entero
+	//inicializacion de las variables 
+	a = 0 
+	b = 0 
+	c = 0
+	//lectura de los datos//
+	escribir "digite el valor del primer numero "
+	leer a 
+	escribir "digite el valor del segundo numero "
+	leer b
+	escribir "digite el valor del tercer numero "
+	leer c
+	//condicionales///impresion de resultados
+	si a > b entonces 
+		escribir "el numero mayor es: " a
+		sino
+		si b > c
+
+			escribir "el numero mayor es: " b
+		
+	    sino
+			escribir "el numero mayor es: " c 
+		FinSi
+	finsi
+	
+	
+	
+FinAlgoritmo
