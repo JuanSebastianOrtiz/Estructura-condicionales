@@ -1,7 +1,4 @@
-# Este codigo ha sido generado por el modulo psexport 20180802-w32 de PSeInt.
-# Es posible que el codigo generado no sea completamente correcto. Si encuentra
-# errores por favor reportelos en el foro (http://pseint.sourceforge.net).
-
+ 
 
 if __name__ == '__main__':
 	# programa que calcula el salario de un empleado 
@@ -30,11 +27,11 @@ if __name__ == '__main__':
 	print("Numero horas trabajadas: ")
 	b = float(input())
 	# procesos 
-	f = a*b
+	f = a*b # formula pago en caso de que no sea mayor a 40
 	if b>40:
-		f = a*40
-		t = ((b-40)*a)*1.5
-	st = f+t
+		f = a*40 #formula pago 
+		t = ((b-40)*a)*1.5 #formula pago horas adicionales
+	st = f+t    #formula del salario neto 
 	# impresion de resultados
 	print("trabajador con el nombre: ",d," Su salario neto es: ",st)
 

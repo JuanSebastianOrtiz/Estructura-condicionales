@@ -10,10 +10,10 @@ Algoritmo ejercicio_2_8
 	p = 0
 	n = 100
 	//bucle operaciones aritmeticas 
-	Para s = 1 Hasta n Con Paso 1 Hacer
+	Para s = 1 Hasta n Con Paso 1 Hacer // ciclo para hasta el 100 de uno en 1 
 		//condicional
-		si s mod 2 == 0 entonces 
-			p = p + s
+		si s mod 2 == 0 entonces // en este caso si el residuo de la division da = 2 se procede por la operacion
+			p = p + s // formula de suma ,suma los numeros que cumplieran la condicion de modular 2
 		FinSi
 	Fin Para
 	//impresion de resultado

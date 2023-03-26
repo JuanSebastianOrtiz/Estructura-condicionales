@@ -25,10 +25,10 @@ Algoritmo  pag_73
 	escribir  "porcentaje del impuesto sin el simbolo %: "
 	leer c
 	//procesos aritmeticos
-	f= a * b
-	c = c /100
-	t = f * c
-	st = f - t
+	f= a * b //formula salario bruto
+	c = c /100 // se divide entre 100 para encontrar el porcentaje
+	t = f * c // formula del impuesto
+	st = f - t // formula del salario total
 	//impresion de resultados
 	escribir "trabajador con el nombre: " d " Su salario bruto es: " f " Su salario neto es: " st
 	

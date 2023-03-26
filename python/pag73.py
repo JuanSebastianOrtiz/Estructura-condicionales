@@ -1,10 +1,7 @@
-# Este codigo ha sido generado por el modulo psexport 20180802-w32 de PSeInt.
-# Es posible que el codigo generado no sea completamente correcto. Si encuentra
-# errores por favor reportelos en el foro (http://pseint.sourceforge.net).
 
 
 if __name__ == '__main__':
-	# Calcular el salario bruto y el salario neto de un trabajador "por horas" conociendo el nombre, número de horas trabajadas, impuestos a pagar y salario neto.
+	# Calcular el salario bruto y el salario neto de un trabajador "por horas" conociendo el nombre, numero de horas trabajadas, impuestos a pagar y salario neto.
 	# version 1.0 
 	# 28/02/2023 
 	# programado por:Juan sebastian ortiz
@@ -35,10 +32,10 @@ if __name__ == '__main__':
 	print("porcentaje del impuesto sin el simbolo %: ")
 	c = float(input())
 	# procesos aritmeticos
-	f = a*b
-	c = c/100
-	t = f*c
-	st = f-t
+	f = a*b  # formula salario bruto 
+	c = c/100 # se divide en 100 para sacar el porcentaje
+	t = f*c #formula impuesto
+	st = f-t #formula salario total
 	# impresion de resultados
 	print("trabajador con el nombre: ",d," Su salario bruto es: ",f," Su salario neto es: ",st)
 

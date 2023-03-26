@@ -9,16 +9,16 @@ Algoritmo ejercicio_3_18
 	a = 0 
 	b = 0 
 	c = 0
-	//lectura de los datos//
+	//captura  de  datos//
 	escribir "digite el valor del primer numero "
 	leer a 
 	escribir "digite el valor del segundo numero "
 	leer b
 	escribir "digite el valor del tercer numero "
 	leer c
-	//condicionales///impresion de resultados
+	//condicionales y impresion de resultados
 	si a > b entonces 
-		escribir "el numero mayor es: " a
+		escribir "el numero mayor es: " a           // este ciclo determina que variable es la mayor de todas
 		sino
 		si b > c
 

@@ -1,8 +1,4 @@
-# Este codigo ha sido generado por el modulo psexport 20180802-w32 de PSeInt.
-# Es posible que el codigo generado no sea completamente correcto. Si encuentra
-# errores por favor reportelos en el foro (http://pseint.sourceforge.net).
-
-
+ 
 if __name__ == '__main__':
 	# programa que lee 3 numeros enteros y imprime el mayor //
 	# desarrollador juan sebastian ortiz ibarra //
@@ -16,19 +12,19 @@ if __name__ == '__main__':
 	a = 0
 	b = 0
 	c = 0
-	# lectura de los datos//
+	# captura de  datos//
 	print("digite el valor del primer numero ")
 	a = int(input())
 	print("digite el valor del segundo numero ")
 	b = int(input())
 	print("digite el valor del tercer numero ")
 	c = int(input())
-	# condicionales///impresion de resultados
+	# condicionales y impresion de resultados
 	if a>b:
 		print("el numero mayor es: ",a)
 	else:
 		if b>c:
-			print("el numero mayor es: ",b)
+			print("el numero mayor es: ",b)  # este ciclo determina cual es la variable con mayor valor 
 		else:
 			print("el numero mayor es: ",c)
 

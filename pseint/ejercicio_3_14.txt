@@ -3,7 +3,7 @@ Algoritmo ejercicio_3_14
 	//version 1.0 
 	//27/02/2023
 	// programado por:Juan sebastian ortiz
-	//definicion de variables
+	//declracion de variables
 	definir l,p,c,pc  como real
 	//inicializacion variables
 	p=0.0
@@ -17,11 +17,12 @@ Algoritmo ejercicio_3_14
 	si l  < 3 entonces 
 		escribir "la llamada tiene un coste de : 10 centimos  (cinco pasos)"
 	sino 
-		//impresion de resultados
+	
 		si l >=3 entonces 
-			p = (l -3) 
-			c = 10 + (p*5)
-			pc=p + 5
+			p = (l -3) //formula de minutos empleados en la llamada 
+			c = 10 + (p*5) // formulas de precio de la llamada  
+			pc=p + 5 // formula de pasos del contador
+                    //impresion de resultados
 			escribir "minutos adicionales : " p " (precio): " c " pasos del contador: " pc
 		FinSi
 	FinSi

@@ -1,7 +1,7 @@
 Algoritmo Ejercicio_2_7
 	// programa que calcula la media de una sucesion de numeros positivos y calcula la media cuando se digita en la terminal de la entrada un 0
 	//version 1.0 
-	//3/03/2022
+	//3/03/2023
 	// programado por:Juan sebastian ortiz
 	//definicion de variables
 	definir dato, C como entero 
@@ -16,16 +16,16 @@ Algoritmo Ejercicio_2_7
 	//condicionales
 	repetir
 			leer dato
-			si dato <>  0 entonces
+			si dato <>  0 entonces //ciclo
 				//procesos aritmeticos
-				C <- C + 1
-				S <- S + dato
+				C <- C + 1 //cuentas los numeros digitados
+				S <- S + dato // suma sucesivamente los numero digitados
 			FIN SI
 			//numero que finaliza la secuencia de numeros positivos
-		hasta que  dato = 0
+		hasta que  dato = 0 //se finaliza el ciclo y se operan los numeros digitados cuando se digita el numero 0
 		//finalizacion de numeros positivos
 			si (C > 0) entonces
-				Media <- S/C
+				Media <- S/C //formula de la media 
 				//impresion de resultado
 					escribir"La media es: " (Media)
 			finsi
